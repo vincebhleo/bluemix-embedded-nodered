@@ -21,9 +21,7 @@
 var http    = require('http'),
     path    = require("path"),     
     express = require("express"),
-    RED     = require("node-red"),
-    passport = require('passport'),
-    Strategy = require('passport-twitter').Strategy
+    RED     = require("node-red")
 ;
 
 // Create an Express app

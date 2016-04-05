@@ -1,0 +1,14 @@
+applications:
+- services:
+  - nodered-cloudantNoSQLDB
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: nodered-embedded
+  host: nodered-embedded
+  disk_quota: 1024M
+
+declared-services:
+  nodered-cloudantNoSQLDB:
+    label: cloudantNoSQLDB
+    plan:  Shared
